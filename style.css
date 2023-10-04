@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(90deg, rgba(24,119,242,1) 0%, rgb(21, 106, 218) 100%);
+}
+
+body h1{
+    color: white;
+    text-align: center;
+    margin-top: -90px;
+    font-size: 28px;
+}
+
+main{
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#great{
+        color: rgba(24,119,242,1);
+        text-decoration: underline;
+}
+
+#lock{
+    width: 50px;
+    margin-left: 72px ;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.spnQtd{
+    text-align: end;
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.question , .finish{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+button{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #008ccc;
+    color: white;
+    font-size: 18px;
+}
+
+#finish{
+    background-color: red;
+    font-weight: bold;
+}
+
+.finish {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finish button {
+    text-align: center;
+}
