@@ -1,34 +1,34 @@
 export default [ 
     {
-        question: "Pensado em criar mais conexão com sua parceira?",
+        question: "Pergunta 1?",
         answers: [
             { option: "Sim", correct: true },
             { option: "Não", correct: false },
         ],
     },
     {
-        question: "Precisa ganhar mais confiança e autoestima?",
+        question: "Pergunta 1?",
         answers:[
             { option: "Sim", correct: true},
             { option: "Não", correct: false},
         ],
     },
     {
-        question: "Acha que massagem Tântrica pode ajudar a melhorar seu ralacionamento?",
+        question: "Pergunta 1?",
         answers:[
             { option: "Sim", correct: true},
             { option: "Não", correct: false},
         ],
     },
     {
-        question: "Curioso para aprender técnicas de massagem tântrica?",
+        question: "Pergunta 1?",
         answers:[
             { option: "Sim", correct: true},
             { option: "Não", correct: false},
         ],
     },
     {
-        question: "Pronto para explorar novas experiências?",
+        question: "Pergunta 1?",
         answers:[
             { option: "Sim", correct: true},
             { option: "Não", correct: false},
